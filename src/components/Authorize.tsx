@@ -1,14 +1,14 @@
-import { Button } from "../../@/components/ui/button"
+import { Button } from "@/components/ui/button"
 import {
     Card,
     CardContent,
     CardHeader,
     CardTitle
-} from "../../@/components/ui/card"
-import GithubIcon from "../../@/components/ui/icon/githubicon"
-import UserIcon from "../../@/components/ui/icon/usericon"
+} from "@/components/ui/card"
+import GithubIcon from "./icon/githubicon"
+import UserIcon from "./icon/usericon"
 import { useAtom } from "jotai";
-import { authorize, step } from "@/store/JotaiStore";
+import { authorize, step } from "../store/JotaiStore";
 export default function Authorize() {
     const [auth, setAuth] = useAtom(authorize)
     const [wizardStep, setStep] = useAtom(step)

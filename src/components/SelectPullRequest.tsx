@@ -1,8 +1,7 @@
 import { DropdownMenu, DropdownMenuContent, DropdownMenuGroup, DropdownMenuItem, DropdownMenuLabel, DropdownMenuSeparator, DropdownMenuTrigger } from '@radix-ui/react-dropdown-menu'
-import { Card, CardContent, CardHeader, CardTitle } from '../../@/components/ui/card'
-import UserIcon from '../../@/components/ui/icon/usericon'
-import { Button } from './ui/button'
-import GitPullRequestIcon from '../../@/components/ui/icon/githubpullrequesticon'
+import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card'
+import GitPullRequestIcon from '@/components/icon/githubpullrequesticon'
+import { Button } from '@/components/ui/button'
 
 export function SelectPullRequest() {
     return (
